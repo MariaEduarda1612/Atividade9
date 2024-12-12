@@ -1,0 +1,302 @@
+body{
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #4c704b;
+}
+
+h2{
+    color: #dae2dd;
+    text-align: left;
+    padding: 0;
+    font-size: 1.5rem;
+}
+ 
+.logo{
+    position: absolute;
+    top: -50px;
+    left: 50px;
+    width: 200px; /* Ajuste o valor para o tamanho desejado */
+    height: 200px; /* Ajuste o valor para o tamanho desejado */ 
+    border-radius: 100%; /* Cria um círculo perfeito */
+    z-index: 1; /* Mantém a imagem no plano da frente */
+}
+
+p{
+    color: #000000;
+    text-align: left;
+    padding: 0;
+    font-size: 1.5rem;
+    margin-bottom: 45px;
+}
+
+.card-fundo {
+    background-color: #343434;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    width: 45%;
+}
+.card-fundo-caixinha {
+    position: absolute;
+    background-color: #343434;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    width: 45%;
+    right: 0px;
+}
+.card-saldo-direito{
+    /* Estilos básicos para os cards */
+    color: #000000;
+    background-color: #dcdcd4;
+    border-radius: 30px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.card-saldo{
+    /* Estilos básicos para os cards */
+    color: #000000;
+    background-color: #dcdcd4;
+    border-radius: 30px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.card-planejamento {
+    /* Estilos específicos para o card secundário */
+    color: #000000;
+    background-color: #dcdcd4;
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+ 
+.card-investimento{
+        /* Estilos específicos para o card secundário */
+        color: #000000;
+        background-color: #dcdcd4;
+        border-radius: 30px;
+        padding: 20px;
+        margin-bottom: 100px;
+}
+.imagem-perfil{
+position: absolute;
+    top: 0px;
+    right: 10px;
+    width: 100px; /* Ajuste o valor para o tamanho desejado */
+    height: 100px; /* Ajuste o valor para o tamanho desejado */ 
+    border-radius: 100%; /* Cria um círculo perfeito */
+    z-index: 1; /* Mantém a imagem no plano da frente */
+}
+.botao-investido{
+    position: absolute;
+    left: 735px; /* Distância da borda direita */
+    bottom: 40px;
+    background-color: #4CAF50; /* Verde claro */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.botao-investido:hover{
+    background-color: #3e8e41;
+}
+.botao-extrato{
+    position: absolute;
+    left: 735px; /* Distância da borda direita */
+    top: 300px;
+    background-color: #4CAF50; /* Verde claro */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.botao-extrato:hover{
+    background-color: #3e8e41;
+}
+.botao-caixinha{
+    position: absolute;
+    right: 87px; /* Distância da borda direita */
+    bottom: 130px;
+    background-color: #4CAF50; /* Verde claro */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.botao-caixinha:hover{
+    background-color: #3e8e41;
+}
+.botao-gastos{
+    position: absolute;
+    right: 87px; /* Distância da borda direita */
+    bottom: 130px;
+    background-color: #4CAF50; /* Verde claro */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.botao-gastos:hover{
+    background-color: #3e8e41;
+}
+.botao-notificacao{
+    position: absolute;
+    top: 25px;
+    right: 150px;
+    width: 50px; /* Ajuste o valor para o tamanho desejado */
+    height: 50px; /* Ajuste o valor para o tamanho desejado */
+    opacity: 0.9; /* Ajuste a opacidade conforme necessário */
+    z-index: 1; /* Mantém a imagem no plano da frente */
+}
+
+footer{
+    color: #f9f9f9; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 0; /* Espaçamento interno */
+    width: 100%; /* Largura total da página */
+    position: relative; /* Posiciona o rodapé */
+    bottom: -50px; /* Alinha ao fundo da página */
+    font-size: 1rem; /* Tamanho da fonte */
+}
+::-webkit-scrollbar {
+    width: 15px; /* Largura da barra */
+}
+  /* Estilizando a parte rolável */
+::-webkit-scrollbar-thumb {
+    background: #2ab42e; /* Cor da parte rolável */
+    border-radius: 50px;
+}
+  /* Estilizando a área ao redor da parte rolável */
+::-webkit-scrollbar-track {
+    background: #ffffff; /* Cor do fundo da área */
+    border-radius: 10px;
+}
+.value-saldo{
+    position: absolute;
+    font-size: 1.5rem;
+    top: 250px;
+    left: 750px; /* Ajuste o valor para o espaçamento desejado */
+}
+.botao-ocultar{
+    position: absolute;
+    top: 240px;
+    left: 800px;
+    width: 50px; /* Ajuste o valor para o tamanho desejado */
+    height: 30px; /* Ajuste o valor para o tamanho desejado */ 
+    z-index: 1; /* Mantém a imagem no plano da frente */
+}
+.value-guardado{
+    position: absolute;
+    font-size: 1.5rem;
+    top: 145px;
+    right: 100px; /* Ajuste o valo  r para o espaçamento desejado */
+}
+.value-gasto{
+    position: absolute;
+    font-size: 1.5rem;
+    top: 145px;
+    right: 100px; /* Ajuste o valo  r para o espaçamento desejado */
+}
+.value-investido{
+    position: absolute;
+    font-size: 1.5rem;
+    bottom: 160px;
+    left: 750px; /* Ajuste o valor para o espaçamento desejado */
+}
+.card-gastos-direito{
+    /* Estilos básicos para os cards */
+    color: #000000;
+    background-color: #dcdcd4;
+    border-radius: 30px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+.card-fundo-gastos{
+    position: absolute;
+    background-color: #343434;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    margin-top: 100px;
+    width: 45%;
+    right: 0px;
+}
+.saldo{
+    position: absolute;
+    right:300px;
+    top: 35px;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    background-color: #ffffff;
+    color: #000000;
+}
+.saldo:hover{
+    background-color: #3e8e41;
+}
+.caixinha{
+    position: absolute;
+    right: 400px;
+    top: 35px;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    background-color: #ffffff;
+    color: #000000;
+}
+.caixinha:hover{
+    background-color: #3e8e41;
+}
+.investido{
+    position: absolute;
+    right: 530px;
+    top: 35px;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    background-color: #ffffff;
+    color: #000000;
+}
+.investido:hover{
+    background-color: #3e8e41;
+}
+.gastos{
+    position: absolute;
+    right: 715px;
+    top: 35px;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    background-color: #ffffff;
+    color: #000000;
+}
+.gastos:hover{
+    background-color:#3e8e41;
+}
